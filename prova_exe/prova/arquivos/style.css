@@ -1,0 +1,29 @@
+
+ h1, p{
+    background-color: yellow;
+  }
+
+  h1{
+    font-size: 30px;
+  }
+
+  
+
+  img{
+
+      width: 800px;    
+  }
+
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+  }
+  
+ 
+
+  img{
+    text-align: left;
+    border: 2px solid rgb(9, 9, 17);
+  }
