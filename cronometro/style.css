@@ -1,0 +1,56 @@
+
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    background-color: #4fb4b8;
+}
+
+.cronometo {
+    max-width: 500px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 10%;
+    background-color: #FFF;
+    box-shadow: 0 0 5px #FFF;
+    text-align: center;
+}
+
+h1 {
+    font-family: arial;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-family: arial;
+    font-size: 1.1em;
+    transition: all .5s;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+button:hover {
+    background-color: #ff0000;
+}
+
+button:active {
+    background-color: #ff0000;
+}
+
+#start{
+    background-color: #ff0000;
+}
+
+#stop {
+    background-color: #ff0000;
+}
+
+#reset {
+    background-color: #ff0000;
+}
