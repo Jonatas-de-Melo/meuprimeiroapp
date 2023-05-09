@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Termo de Usuario</title>
+</head>
+<script>
+       
+
+       
+
+           
+       
+
+       function termosUsuario(){
+
+          var resposta = document.getElementById("resposta").value
+         
+          if(resposta == 'aceito'){
+                alert ('obrigado por aceitar os termos de uso');
+                window.location.href = "https://www.google.com.br";
+          } 
+          else if (resposta == 'nao aceito'){
+           alert('voce nao pode acessar esta pagiana');
+          }
+          else {
+           alert('voce deve digitar aceito ou nao aceito');
+          }
+       }
+   
+    
+        
+    </script>
+<body>
+   
+    <form id="formulario">
+        <label for="resposta">
+            <h1>Voce aceita os termos e condiçoes de usuario?</h1>
+        </label>
+        <input type="text" name="resposta" placeholder="'aceito ou nao aceito" id="resposta">
+         
+    <input type="button" onclick="termosUsuario()" value="click">
+    </form>
+   
+   
+
+    
+    
+</body>
+</html>

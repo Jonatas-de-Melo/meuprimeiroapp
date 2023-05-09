@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+       
+
+        function termosUsuario(){
+
+           var resposta = prompt("voce aceita os termos de uso? digite 'aceito' ou 'nao aceito'");
+          
+           if(resposta == 'aceito'){
+                 alert ('obrigado por aceitar os termos de uso');
+           } 
+           else if (resposta == 'nao aceito'){
+            alert('voce nao pode acessar esta pagiana');
+           }
+           else {
+            alert('voce deve digitar aceito ou nao aceito');
+           }
+        }
+    </script>
+<body>
+   
+    clique aqui para ver o alert
+    <input type="button" onclick="termosUsuario()" value="click">
+    
+
+    
+    
+</body>
+</html>
